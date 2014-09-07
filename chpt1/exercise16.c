@@ -17,7 +17,7 @@ int main() {
       copy(longest, line);
     }
   }
-  if (max >= 80) {
+  if (max > 0) {
     printf("%s", longest);
   }
   return 0;
